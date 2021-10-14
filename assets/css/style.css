@@ -55,7 +55,6 @@ html {
     box-sizing: border-box;
     font-size: 16px;
     scroll-behavior: smooth;
-    animation: apper 2s ease-in-out;
   }
   
   *, *:before, *:after {
@@ -131,6 +130,7 @@ html {
       left: 0;
       z-index: var(--z-fixed);
       background-color: var(--body-color);
+      animation: apper 2s ease-in-out;
   }
 
   /* NAV */
@@ -868,7 +868,7 @@ body.dark-theme {
     }
 }
 
-/* ANIMATION 
+/* ANIMATION */
 
 @keyframes apper {
     0% {
@@ -878,4 +878,4 @@ body.dark-theme {
         opacity: 100;
     }
 }
-*/
+
