@@ -219,6 +219,10 @@ html {
 
 /*HOME*/
 
+html.sr .about {
+    visibility: hidden;
+}
+
 .home-container {
     gap: 1rem;
 }
@@ -864,7 +868,7 @@ body.dark-theme {
     }
 }
 
-/* ANIMATION */
+/* ANIMATION 
 
 @keyframes apper {
     0% {
@@ -874,3 +878,4 @@ body.dark-theme {
         opacity: 100;
     }
 }
+*/

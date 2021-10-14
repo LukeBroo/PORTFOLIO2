@@ -127,6 +127,20 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
-      
 
+/* SCROLL REVEAL */
+      const sr = ScrollReveal({
+          origin: 'top',
+          distance: '60px',
+          duration: '2500',
+          delay: 300,
+          //reset: true
+      })
+
+      ScrollReveal().reveal('.header');
+      ScrollReveal().reveal('.home');
+      ScrollReveal().reveal('.about');
+      ScrollReveal().reveal('.skills');
+      ScrollReveal().reveal('.portfolio');
+      ScrollReveal().reveal('.contact');
       
