@@ -137,7 +137,6 @@ themeButton.addEventListener('click', () => {
           //reset: true
       })
 
-      ScrollReveal().reveal('.header');
       ScrollReveal().reveal('.home');
       ScrollReveal().reveal('.about');
       ScrollReveal().reveal('.skills');
