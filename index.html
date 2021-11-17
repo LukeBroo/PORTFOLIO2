@@ -100,7 +100,7 @@
                 </div>
                 <div class="home-data">
                     <h1 class="home-title">Hi, I'm Łukasz</h1>
-                    <h3 class="home-subtitle">Aspiring Frontend Developer</h3>
+                    <h3 class="home-subtitle"><span class='auto-input'></span></h3>
                     <p class="home-description">I am a young frontend developer who tries to gain some experience in the big IT world.</p>
                     <a href="#contact" class="button button--flex">
                         Contact Me <i class="uil uil-fast-mail button-icon"></i>
@@ -431,5 +431,16 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+
+var typed = new Typed('.auto-input', { 
+    strings: ["Aspiring Frontend Developer? ^1000", "Web Developer? ^1000", "Junior Developer? ^1000", "Well mostly just aspiring ^1000"],
+    typeSpeed: 100,
+    backSpeed: 50,
+    loop: true
+})
+
+    </script>
 </body>
 </html>
