@@ -332,8 +332,22 @@ html.sr .about {
     transition: .5s;
 }
 
+.button-icon2 {
+    font-size: var(--small-font-size);
+    color: #FFF;
+    font-weight: var(--font-medium);
+    margin-right: 0.25rem;
+    margin-left: 0.5rem;
+    font-size: 1.75rem;
+    transition: .5s;
+}
+
 .button:hover .button-icon {
     transform: translateX(.5rem);
+}
+
+.button:hover .button-icon2 {
+    transform: translateY(.5rem);
 }
 
 .button--flex {
