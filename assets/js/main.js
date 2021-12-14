@@ -64,7 +64,7 @@ const   navMenu = document.getElementById('nav-menu'),
               clickable: true,
             },
             autoplay: {
-                delay: 5000,
+                delay: 10000,
             },
           });
 
