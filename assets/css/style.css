@@ -559,9 +559,7 @@ row-gap: 0;
 
 
 .swiper-pagination {
-    bottom: 10px !important;
-    bottom: calc(env(safe-area-inset-bottom) + 35rem) !important;
-
+    display: none;
 }
     
 
