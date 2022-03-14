@@ -130,7 +130,7 @@ themeButton.addEventListener('click', () => {
 
 /* SCROLL REVEAL */
       const sr = ScrollReveal({
-          origin: 'top',
+          origin: 'bottom',
           distance: '60px',
           duration: '2500',
           delay: 300,
@@ -139,7 +139,9 @@ themeButton.addEventListener('click', () => {
 
       ScrollReveal().reveal('.home');
       ScrollReveal().reveal('.about');
-      ScrollReveal().reveal('.skills');
+      ScrollReveal().reveal('.skills', {origin: 'bottom', delay: 300 });
+      ScrollReveal().reveal('.sr-l', {origin: 'left', delay: 500 });
+      ScrollReveal().reveal('.sr-r', {origin: 'right', delay: 500 });
       ScrollReveal().reveal('.portfolio');
       ScrollReveal().reveal('.contact');
       
